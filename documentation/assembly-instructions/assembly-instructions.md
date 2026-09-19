@@ -6,16 +6,16 @@ These instructions apply to the Spirit WAVE implementation of **SMUT™** - **S*
 
 **Left and right are always described while looking at the front of the radio.**
 
-> **Hardware status:** the pivot, detent and mounting hardware are carried forward from the physically validated iX14 V2 SMUT™ mechanism. The Spirit WAVE uses radio-specific case geometry and a WAVE-specific stand/header while retaining the same pivot-stub, replaceable detent-ring and ball-plunger architecture.
+> **Hardware status:** the pivot, detent and mounting hardware are carried forward from the physically validated iX14 SMUT™ mechanism. The Spirit WAVE uses radio-specific case geometry and a WAVE-specific stand/header while retaining the same pivot-stub, replaceable detent-ring and ball-plunger architecture.
 
 ## Recommended print files
 
 For Bambu Studio users:
 
 - [Spirit WAVE mounting hardware 3MF](../../bambu-studio-3mf/mounting-hardware/SpiritWave_all_mounting_hardware.3mf)
-- [Spirit-S stand 3MF](../../bambu-studio-3mf/stand/SpiritWave-SpiritS-Stand-Mule-0.11-Bambu.3mf)
+- [Spirit WAVE stand 3MF](../../bambu-studio-3mf/stand/SpiritWave-Stand.3mf)
 
-Individual STL/SCAD files are also available under `stl-scad/`.
+Individual STL/SCAD files are also available under stl-scad/. A merged stand STL is available at [SpiritWave-Stand-merged.stl](../../stl-scad/stand/SpiritWave-Stand-merged.stl).
 
 ## Printed parts
 
@@ -29,7 +29,7 @@ Individual STL/SCAD files are also available under `stl-scad/`.
 | 1 | Replaceable detent ring |
 | 1 | Spirit WAVE stand assembly |
 
-The reusable **SpiritWave Header Mule** is provided as a design core/reference for alternate stand bodies. It is already incorporated into the current Spirit-S stand and is **not an additional printed part** when using the supplied stand 3MF.
+The reusable **SpiritWave Header Mule** is provided as a design core/reference for alternate stand bodies. It is already incorporated into the supplied stand and is **not an additional printed part** when using the current stand 3MF.
 
 Use the [Spirit WAVE buy list](<../../buy-list/Spirit WAVE Stand - Buy List.md>) for the complete hardware list.
 
@@ -43,7 +43,9 @@ Install all heat-set inserts before mounting the cases to the radio.
 
 Use the alignment feature supplied with your heat-set tool, such as an insert-centering nub, whenever one is available. If your heat-set setup does not already provide an alignment solution, an appropriate screw may be threaded loosely into the insert to help keep it straight. Press the insert into its reinforced collar and allow the part to cool completely before applying load.
 
-[Stage 1: build the left and right pivot assemblies](../exploded-view/images/step-1.png)
+> **Ball-plunger insert collar:** because of the nature of the print and the location of the M4 plunger insert, the printed collar/opening may not seat perfectly cleanly. If needed, **lightly clean it with a reamer** before installing the insert. Remove only enough material to clean the opening; do not unnecessarily enlarge the bore.
+
+[Stage 1: build the left and right pivot assemblies](../exploded-view/images/step1.png)
 
 ## 1. Assemble the right detent pivot
 
@@ -64,19 +66,22 @@ Use the alignment feature supplied with your heat-set tool, such as an insert-ce
 
 ## 3. Mount the case assemblies to the WAVE handle
 
-[Stage 2: attach the case assemblies to the WAVE handle](../exploded-view/images/step-2.png)
+[Stage 2: attach the case assemblies to the WAVE handle](../exploded-view/images/step2.png)
 
 1. Place the completed left and right case assemblies around their corresponding sides of the Spirit WAVE round metal handle.
 2. Fit one **common case cap** to each case body. The two caps are identical; there is no left/right cap assignment.
-3. Make sure the handle is fully seated in the curved channel in each case and cap.
-4. Install two M3 × 12 screws through each cap.
-5. Tighten the four cap screws only enough to hold the assemblies in place. Leave enough movement for the stand/header to square and align both sides.
+3. Orient each common cap with its **beveled edge facing away from the radio**.
+4. Make sure the handle is fully seated in the curved channel in each case and cap.
+5. Install two M3 × 12 screws through each cap.
+6. Snug the four cap screws only enough to hold the assemblies in position while the stand/header is fitted and used to square both sides.
 
 Washers are not required under the case-cap screws.
 
+> **Normal cap fit:** after final tightening there will be a **visible gap** between each cap and case body. This is expected. Tighten until you feel a **good bite** and the assembly is secure on the handle; do not overtighten simply to force the cap flush.
+
 ## 4. Attach the Spirit WAVE stand
 
-[Stage 3: attach, square and tighten the Spirit WAVE stand](../exploded-view/images/step-3.png)
+[Stage 3: attach, square and tighten the Spirit WAVE stand](../exploded-view/images/step3.png)
 
 1. Align the stand/header's two keyed recesses with the square mounting blocks on the pivot stubs.
 2. Seat both mounting blocks completely in the header recesses.
@@ -90,8 +95,9 @@ The keyed mounting blocks carry the stand's shear and twisting loads; the M3 scr
 1. Push both handle-mounted case assemblies as far toward the radio body as they will naturally seat.
 2. Use the attached stand/header to bring both pivot assemblies square and parallel.
 3. Tighten the four M3 × 12 cap screws evenly, alternating between screws so each cap clamps uniformly around the handle.
-4. Tighten the two M3 × 8 stand screws and washers.
-5. Fold and deploy the stand through its complete travel to confirm that neither side binds or shifts.
+4. Stop when the caps have a secure **good bite** on the handle. A visible cap-to-body gap is normal.
+5. Tighten the two M3 × 8 stand screws and washers.
+6. Fold and deploy the stand through its complete travel to confirm that neither side binds or shifts.
 
 Do not overtighten the cap screws against the radio handle.
 
@@ -108,7 +114,8 @@ The correct setting is the point at which the detents feel deliberate and secure
 ## Final inspection
 
 - Both case assemblies are fully seated on the intended WAVE handle locations
-- Both common caps are seated evenly
+- Both common caps have their beveled edges facing away from the radio
+- Both common caps have a secure bite; a visible cap-to-body gap is acceptable and expected
 - All four cap screws are evenly tightened
 - Both pivot screws are secure with washers and Nyloc nuts
 - Both pivots rotate freely without axial looseness
@@ -119,6 +126,12 @@ The correct setting is the point at which the detents feel deliberate and secure
 - Stand deploys smoothly and supports the radio at the intended angle
 - Stand folds without contacting the radio body, switches or controls
 - Handle opening remains clear for normal carrying
+
+## Transport / case fit
+
+**The radio will not fit in the stock Spirit case with this stand installed unless you are willing to modify the case.**
+
+The documented physical build is transported in a **Spektrum two-radio case**, which also works well when carrying multiple transmitters.
 
 ## Safety and maintenance
 
@@ -132,6 +145,6 @@ The correct setting is the point at which the detents feel deliberate and secure
 
 ## Project status / branding note
 
-This is an unofficial community project and is not affiliated with or endorsed by Spirit System unless explicitly stated otherwise.
+This is an unofficial community project and is not affiliated with or endorsed by Spirit System.
 
-The SMUT™ mechanism and reusable WAVE header architecture are independent of the Spirit-S cosmetic stand treatment. If a non-branded stand is distributed, the case/pivot/detent assembly procedure remains the same; only the stand body changes.
+The SMUT™ mechanism and reusable WAVE header architecture are independent of the Spirit-S cosmetic stand treatment. A logo-free stand body can use the same case/pivot/detent mechanism and Header Mule interface.
